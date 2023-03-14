@@ -1,0 +1,26 @@
+.wrapper {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  margin-right: 5px;
+  font-size: 16px;
+  padding-left: 8px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid b9bdb9;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  height: 36px;
+  border-radius: 5px;
+  background-color: b9bdb9;
+  font-size: 16px;
+  color: #c9202c;
+  cursor: pointer;
+}

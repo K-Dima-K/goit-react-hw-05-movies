@@ -1,0 +1,51 @@
+.wrapper {
+  display: flex;
+  gap: 20px;
+  border: 1px solid #b9bdb9;
+  padding: 10px;
+}
+
+.button {
+  margin: 20px 0;
+  padding: 5px 10px 5px 8px;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  background-color: #c9202c;
+  color: #b9bdb9;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.title {
+  margin: 0;
+}
+
+.topic {
+  display: inline-block;
+  padding: 2px;
+  margin: 0;
+  margin-bottom: 10px;
+  border-radius: 10%;
+
+  background-color: #b9bdb9;
+  color: #c9202c;
+}
+
+.list {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.wrapperLink {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #c9202c;
+  font-weight: 700;
+}
