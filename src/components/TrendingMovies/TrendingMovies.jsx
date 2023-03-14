@@ -16,18 +16,17 @@ const TrendingMovies = () => {
       try {
         setLoading(true);
         const results = await filmsSearch();
-        // console.log(results);
 
         setMovies(results);
       } catch ({ response }) {
         setError(response.data.message);
-        error(`Sorry,${response.data.message}`);
+        alert(`Sorry,${error}`);
       } finally {
         setLoading(false);
       }
     };
     fetchMovies();
-  }, [setMovies, setLoading]);
+  }, [setMovies, setLoading, error]);
 
   return (
     <div className={css.wrapper}>
