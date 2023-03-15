@@ -13,7 +13,7 @@ const Reviews = lazy(() => import('pages/Reviews/Reviews'));
 export const App = () => {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="goit-react-hw-05-movies">
         <Navbar />
         <div className={css.container}>
           <Suspense fallback={<Loader />}>
